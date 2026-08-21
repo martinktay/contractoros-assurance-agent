@@ -224,7 +224,11 @@ export default function App() {
       MEDIUM: 'bg-amber-950/40 text-amber-300 border-amber-800/40',
       HIGH: 'bg-rose-950/40 text-rose-300 border-rose-800/40'
     };
-    return `px-1.5 py-0.5 rounded text-[10px] uppercase font-bold border ${config[risk]}`;
+    return (
+      <span className={`px-1.5 py-0.5 rounded text-[10px] uppercase font-bold border ${config[risk] || ''}`}>
+        {risk}
+      </span>
+    );
   };
 
   // Metrics calculations
