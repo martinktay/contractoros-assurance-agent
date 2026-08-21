@@ -23,7 +23,8 @@ def main():
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
         text=True,
-        bufsize=1
+        bufsize=1,
+        shell=True
     )
     
     # 2. Wait for backend to be ready
@@ -39,7 +40,8 @@ def main():
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
         text=True,
-        bufsize=1
+        bufsize=1,
+        shell=True
     )
     
     print("\n[3/3] System is launching!")
