@@ -8,6 +8,13 @@ class Contractor(BaseModel):
     service_category: str
     risk_level: Literal["LOW", "MEDIUM", "HIGH"]
     assurance_status: Literal["READY", "PARTIALLY_READY", "NOT_READY", "REVIEW_REQUIRED"]
+    contact_email: Optional[str] = None
+    phone: Optional[str] = None
+    license_number: Optional[str] = None
+    incorporation_date: Optional[str] = None
+    assigned_officer: Optional[str] = None
+    safety_score: Optional[int] = None
+    address: Optional[str] = None
 
 class Requirement(BaseModel):
     id: str

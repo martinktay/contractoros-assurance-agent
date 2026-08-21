@@ -41,35 +41,70 @@ SEED_CONTRACTORS = [
         name="Alpha Drilling Services Ltd",
         service_category="Drilling Services",
         risk_level="LOW",
-        assurance_status="NOT_READY"
+        assurance_status="NOT_READY",
+        contact_email="compliance@alphadrilling.com",
+        phone="+234-803-111-2222",
+        license_number="DPR-DRL-2024-991A",
+        incorporation_date="2018-05-14",
+        assigned_officer="Sarah Jenkins (Senior Auditor)",
+        safety_score=96,
+        address="Plot 12, Trans-Amadi Industrial Layout, Port Harcourt, Rivers State, Nigeria"
     ),
     Contractor(
         id="bravo",
         name="Bravo Marine Logistics Ltd",
         service_category="Marine Logistics",
         risk_level="LOW",
-        assurance_status="NOT_READY"
+        assurance_status="NOT_READY",
+        contact_email="safety@bravomarine.com",
+        phone="+234-809-555-6677",
+        license_number="DPR-MAR-2023-442B",
+        incorporation_date="2020-11-20",
+        assigned_officer="David Okafor (Logistics Compliance)",
+        safety_score=89,
+        address="Suite 401, Grand Ocean Towers, Marina, Lagos, Nigeria"
     ),
     Contractor(
         id="charlie",
         name="Charlie Pipeline Construction Corp",
         service_category="Pipeline Construction",
         risk_level="MEDIUM",
-        assurance_status="NOT_READY"
+        assurance_status="NOT_READY",
+        contact_email="legal@charliepipelines.com",
+        phone="+234-812-333-4444",
+        license_number="DPR-PIP-2022-771C",
+        incorporation_date="2015-03-01",
+        assigned_officer="Elena Rostova (Risk Manager)",
+        safety_score=78,
+        address="15 Shell Close, Off Airport Road, Warri, Delta State, Nigeria"
     ),
     Contractor(
         id="delta",
         name="Delta Subsea Engineering Ltd",
         service_category="Subsea Engineering",
         risk_level="HIGH",
-        assurance_status="NOT_READY"
+        assurance_status="NOT_READY",
+        contact_email="operations@deltasubsea.com",
+        phone="+234-805-777-8888",
+        license_number="DPR-SUB-2025-009D",
+        incorporation_date="2021-08-10",
+        assigned_officer="Marcus Vance (Principal Assurer)",
+        safety_score=92,
+        address="Subsea Base, Onne Free Zone, Port Harcourt, Nigeria"
     ),
     Contractor(
         id="echo",
         name="Echo Tanker Operations Ltd",
         service_category="Tanker Operations",
         risk_level="HIGH",
-        assurance_status="NOT_READY"
+        assurance_status="NOT_READY",
+        contact_email="safety-team@echotankers.com",
+        phone="+234-818-444-5555",
+        license_number="DPR-TNK-2023-118E",
+        incorporation_date="2012-06-25",
+        assigned_officer="Sarah Jenkins (Senior Auditor)",
+        safety_score=84,
+        address="Aviation House, Victoria Island, Lagos, Nigeria"
     )
 ]
 
