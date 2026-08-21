@@ -1,0 +1,23 @@
+[project]
+name = "contractoros-assurance-agent"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.43.76",
+    "fastapi>=0.141.1",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.3",
+    "strands-agents>=1.52.0",
+    "uvicorn>=0.52.4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+asyncio_mode = "auto"
